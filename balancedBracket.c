@@ -66,13 +66,6 @@ int isBalancedBracket(char *str)
     return 1;
   return 0;
 }
-  /* if(IsEmpty(sp)==1) */
-  /*   return 1; */
-  /* freeStack(sp); */
-  /* return 0; */
-
-
-
 int main(void)
 {
   char *str="[{(())}]";
@@ -80,13 +73,9 @@ int main(void)
   char *str2="((((()))}]";
   char *st3="[(()()())]";
   stack *sp=CreateStack(20);
-  //push(&sp,&str);
-  //printf("%d",sp->counter);
-  //pop(&sp);
-  //printf("%d",sp->counter);
   printf("%d",isBalancedBracket(str));
-   printf("%d",isBalancedBracket(str1));
-     printf("%d",isBalancedBracket(str2));
-       printf("%d",isBalancedBracket(st3));
+  printf("%d",isBalancedBracket(str1));
+  printf("%d",isBalancedBracket(str2));
+  printf("%d",isBalancedBracket(st3));
    return 0;
 }
