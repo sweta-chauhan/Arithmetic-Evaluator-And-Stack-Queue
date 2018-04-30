@@ -1,2 +1,2 @@
 # Simple-Data-Structure-Program
-Simple DS rogram
+Simple DS Program
